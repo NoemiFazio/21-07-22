@@ -1,0 +1,12 @@
+.Hero {
+  background-color: rgb(156, 156, 237);
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Hero__Title {
+  font-size: 100px;
+  margin: 0;
+}
