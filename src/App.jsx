@@ -10,12 +10,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className="Navbar">
+      <Navbar
+        funzione={() => setGalleryVisibility(!isGalleryVisibile)}
+        condizione={isGalleryVisibile}
+      />
+      {/* <div className="Navbar">
         <Button
           btnTextCont="show / hide"
           onHandleClick={() => setGalleryVisibility(!isGalleryVisibile)}
         />
-      </div>
+      </div> */}
 
       <Hero />
       <Gallery visibility={isGalleryVisibile} />
